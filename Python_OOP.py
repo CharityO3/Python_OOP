@@ -35,7 +35,7 @@ def generate_plot_population_per_continent(population_dictionary):
     plt.plot(year, population, label=continent, marker="o", alpha=0.5)
   plt.title("Internet User Population Per Continent", fontweight="bold")
   plt.xlabel("Year", fontweight="bold")
-  plt.ylabel("Population (in billion users", fontweight="bold")
+  plt.ylabel("Population (in billion users)", fontweight="bold")
   plt.legend()
   plt.grid(True)
   plt.show()
